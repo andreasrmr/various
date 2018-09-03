@@ -1,0 +1,10 @@
+#!/bin/bash
+#chmod +x filename.sh
+#./filename.sh
+sudo apt update && apt upgrade -y
+
+sudo apt install atom-io
+
+
+#apt-cache search vsftpd
+#apt-cache pkgnames
