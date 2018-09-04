@@ -1,17 +1,17 @@
 @ECHO OFF
-echo "------------DB-------------"
+echo "---------DB-------------"
 cd db
 git status
-echo "------------java-------------"
+echo "--------java----------"
 cd ../java
 git status
-echo "------------js-------------"
+echo "---------js------------"
 cd ../js
 git status
-echo "------------scripts-------------"
+echo "--------scripts----------"
 cd ../scripts
 git status
-echo "------------visualparagdigm-------------"
+echo "-----visualparagdigm-----"
 cd ../visualparagdigm
 git status
 pause

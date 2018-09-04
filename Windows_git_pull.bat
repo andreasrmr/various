@@ -1,17 +1,17 @@
 @ECHO OFF
-echo "------------DB-------------"
+echo "---------DB-------------"
 cd db
 git pull
-echo "------------java-------------"
+echo "--------java----------"
 cd ../java
 git pull
-echo "------------js-------------"
+echo "---------js------------"
 cd ../js
 git pull
-echo "------------scripts-------------"
+echo "--------scripts----------"
 cd ../scripts
 git pull
-echo "------------visualparagdigm-------------"
+echo "-----visualparagdigm-----"
 cd ../visualparagdigm
 git pull
 pause
