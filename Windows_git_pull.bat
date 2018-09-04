@@ -1,4 +1,5 @@
 @ECHO OFF
+cd ..
 echo "---------DB-------------"
 cd db
 git pull
