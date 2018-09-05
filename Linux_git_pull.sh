@@ -1,18 +1,19 @@
-@ECHO OFF
-cd..
+#!/bin/bash
+#init
+cd ..
 echo "---------DB-------------"
 cd db
-git status
+git pull
 echo "--------java----------"
 cd ../java
-git status
+git pull
 echo "---------js------------"
 cd ../js
-git status
+git pull
 echo "--------scripts----------"
 cd ../scripts
-git status
+git pull
 echo "-----visualparagdigm-----"
 cd ../visualparagdigm
-git status
-pause
+git pull
+read -p "Press enter"

@@ -1,5 +1,6 @@
-@ECHO OFF
-cd..
+#!/bin/bash
+#init
+cd ..
 echo "---------DB-------------"
 cd db
 git status
@@ -15,4 +16,4 @@ git status
 echo "-----visualparagdigm-----"
 cd ../visualparagdigm
 git status
-pause
+read -p "Press enter"
