@@ -1,0 +1,18 @@
+Shrink windows partion
+Installer linux - Choose "Install Next to windows"
+
+
+Shrinking Windows partition: https://help.ubuntu.com/community/HowtoResizeWindowsPartitions
+
+Linux USB: https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0
+
+Entire process (install): https://help.ubuntu.com/community/WindowsDualBoot
+
+Oooooh, yeah I have the BitLocker answer for you too. 
+1.Disable BitLocker. 
+2.Disable secure boot. 
+3.Set to boot via GRUB. 
+4.Boot to Windows via GRUB. 
+5.Enable BitLocker. 
+6.Secure boot off 
+7.BitLocker on, bam

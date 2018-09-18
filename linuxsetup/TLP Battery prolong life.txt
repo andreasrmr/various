@@ -1,0 +1,3 @@
+Forum linker til her:  max charge til 75%
+https://linrunner.de/en/tlp/docs/tlp-linux-advanced-power-management.html#features
+
