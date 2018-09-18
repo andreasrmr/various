@@ -1,0 +1,7 @@
+Forum linker til her:  max charge til 75%
+https://linrunner.de/en/tlp/docs/tlp-linux-advanced-power-management.html#features
+
+As the default configuration already provides for optimized battery saving, in many cases there is no immediate need to change it. The full reference can be read at TLP Configuration.
+sudo tlp start
+sudo tlp stat -s
+sudo check stat kommando TLP bør starte op af sig selv. ellers skal det enables.
