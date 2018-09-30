@@ -1,1 +1,1 @@
-~/programs/jgrasp/bin/jgrasp
+nohup ~/programs/jgrasp/bin/jgrasp &
