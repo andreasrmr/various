@@ -1,0 +1,12 @@
+nano /etc/profile
+
+#indsæt
+export JAVA_HOME="path that you found"
+
+export PATH=$JAVA_HOME/bin:$PATH
+
+
+#gem
+
+source /etc/profile
+
