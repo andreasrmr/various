@@ -1,0 +1,11 @@
+#windows
+
+netsh wlan show interfaces
+netsh wlan show interfaces | find "BSSID"
+
+#linux 
+ip a
+sudo /etc/init.d/networking restart
+
+#GUI
+sudo apt-get install wifi-radar
