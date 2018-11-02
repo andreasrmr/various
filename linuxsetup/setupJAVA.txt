@@ -10,3 +10,7 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 source /etc/profile
 
+#EKSEMPEL
+export JAVA_HOME="/home/andreasr/programs/jdk-10.0.2"
+export PATH=$JAVA_HOME/bin:$PATH
+
