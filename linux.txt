@@ -1,3 +1,7 @@
 #Kopier fil til anden fil
 echo "$(cat my_file.txt)" >> filename
 
+#Slet filer rekursivt 
+find . -type f -name '*.class' -delete
+
+
