@@ -1,0 +1,11 @@
+vimModes
+3 Modes:
+1. mode Default - normal mode
+x key deletes a character - andre keys goer andet.
+
+2. mode  INSERT mode
+Tryk på: I eller INSERT 
+Tryk på ESC for at gå tilbage til command mode
+
+3. mode replac
+

@@ -4,4 +4,13 @@ echo "$(cat my_file.txt)" >> filename
 #Slet filer rekursivt 
 find . -type f -name '*.class' -delete
 
+#slet et program
+apt --purge program
+apt autoremove
+
+#se installerede pakker
+dpkg --get-selections	
+
+#installer .deb fil
+dpkg-deb -I <file.deb>
 
