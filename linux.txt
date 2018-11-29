@@ -14,3 +14,9 @@ dpkg --get-selections
 #installer .deb fil
 dpkg-deb -I <file.deb>
 
+#eks.
+dpkg --get-selections google-chrome-stable
+#se hvad der kommer med pakken
+dpkg-deb --contents google-chrome-stable
+#installer
+dpkg -i google-chrome-stable_current_amd64.deb
