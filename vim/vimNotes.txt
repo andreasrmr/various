@@ -1,0 +1,6 @@
+vimawesome.com
+installer forskellige plugins.
++functionality
+
+vimscript
+
