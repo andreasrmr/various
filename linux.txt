@@ -5,7 +5,7 @@ echo "$(cat my_file.txt)" >> filename
 find . -type f -name '*.class' -delete
 
 #slet et program
-apt --purge program
+apt-get remove program
 apt autoremove
 
 #se installerede pakker
