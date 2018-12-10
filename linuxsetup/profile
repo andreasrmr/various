@@ -35,3 +35,12 @@ fi
 //JAVA
 export JAVA_HOME="/home/andreasr/programs/jdk-10.0.2"
 export PATH=$JAVA_HOME/bin:$PATH
+
+//netbeans
+export PATH=/home/andreasr/programs/netbeans/bin:$PATH
+
+//intellij
+export PATH=/home/andreasr/programs/idea-IC-182.4892.20/bin:$PATH
+
+//visual paradigm
+export PATH=/home/andreasr/programs/Visual_Paradigm_15.1/bin:$PATH
