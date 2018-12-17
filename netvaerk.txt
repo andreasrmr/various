@@ -18,3 +18,13 @@ nc -zv 127.0.0.1 80 8080
 
 #test Range af ports
 nc -zv 127.0.0.1 20-30
+
+#remote set ip & dfg
+netsh int ip set address "local area connection" static <ip> <subnet> <dfg> 1
+Example:
+netsh int ip set address "local area connection" static 192.168.0.101 255.255.255.0 192.168.0.254 1
+
+#remote set dns
+netsh int ip set dns "local area connection" static <ip> primary
+Example:
+netsh int ip set dns "local area connection" static 192.168.0.254 primary
